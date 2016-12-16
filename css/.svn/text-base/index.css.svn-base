@@ -1,0 +1,265 @@
+*{margin: 0 auto; padding: 0; font-size: 12px;}
+a{text-decoration: none; color: #666666; border: none;}
+li{list-style: none;}
+.row{margin: 0; padding: 0;}
+
+/*登录*/
+#DL{width: 100%; height: 100%; background-color: rgba(0,0,0,0.5);position: fixed; z-index: 29; display: none;}
+#register{width: 470px; height: 339px; position:fixed; z-index: 30; left: 445px; top: 212px;background-repeat: no-repeat;
+		background-image: url(../img/denglu_3.png); background-color: white; font-size: 14px;display: none;}
+#register_span{font-size: 16px; margin-top: 20px; margin-left:115px; display: inline-block; color: #666666;}
+#register_X{ background-image: url(../img/denglu_06.png);display: inline-block; width: 29px;height: 24px;
+		 margin-left:160px; margin-top: 15px;}
+#register_X:hover{background-image: url(../img/denglu_9.png);}
+#register_X>img{position: absolute;left: 421px; top: 15px;}
+#empty{margin-left: 100px; margin-top: 10px; display: inline-block; font-size: 14px; color: red;}
+#register_div1{margin-left: 50px;}
+.register_input{width: 261px; height: 34px; margin-left: 14px;}
+#register_input1{ margin-top: 10px;}
+#register_input2{margin-left: 50px;margin-top: 15px;} 
+#register_register{background-image: url(../img/denglu_02.png); display: block; width: 263px; height: 38px;
+		margin-left: 50px; margin-top: 10px;}
+#register_register:hover{background-image: url(../img/denglu_05.png);}
+#register_p{padding-left: 100px; padding-top: 12px; border-bottom: 1px solid #d6d6d6;width: 470px; height: 50px;}
+#register_a{display: inline-block; width: 78px; margin-left: 130px; border-right: 1px solid #999999; color: #999;}
+#register_a1{margin-left: 15px; color: #0082cb;}
+/*注册*/
+#backcolor{width:100%;height:100%;background: rgba(0,0,0,0.5);position: fixed; z-index: 29; display: none;}
+#sign{width: 470px; height: 344px; position:fixed; z-index: 30; left: 445px; top: 212px;background-repeat: no-repeat;
+		background-image: url(../img/denglu_3.png); background-color: white; font-size: 14px;display: none;}
+#sign_X{ background-image: url(../img/denglu_06.png);display: inline-block; width: 29px;height: 24px;
+		 margin-left:421px; margin-top: 15px;}
+#sign_X:hover{background-image: url(../img/denglu_9.png);}
+#sign_X>img{position: absolute;left: 421px; top: 15px;}
+#sign_div1{margin-left: 50px;}
+.sign_input{width: 220px; height: 34px; }
+#sign_input1{margin-top: 40px;width: 220px; height: 34px;}
+.span{display: inline-block;margin-left:10px;}
+.span1{display: inline-block;margin-left:22px;}
+.span2{display: inline-block;margin-left:-2px;}
+.btn{width:220px;background:#8dd14a;margin-left:58px;}
+.name2{margin-left:300px;margin-top:-25px;}
+.name5{margin-left:300px;margin-top:-25px;}
+.pass11{margin-left:300px;margin-top:-25px;}
+/*顶部*/
+#top{width: 100%; background-color: #f6f6f6; height: 32px; border-bottom: 1px solid #c7c7c7;}
+#top1{width:1200px; background-color: #f6f6f6; height: 31px;}
+/*顶部左侧*/
+#tLeft{float: left; height: 30px; line-height: 30px; position: relative;}
+.topLi{float: left; height: 18px;}
+/*城市切换*/
+#city1{display: none; }
+#city{font-size: 14px; color: #118855; margin-right: 10px;}
+#handcity{display: inline-block; width: 66px; line-height: 18px; border-right: 1px solid #d2d2d2;} 
+#handcity:hover{color: #666666;}
+/*切换城市的城市选项*/
+#city1{width: 458px; height: 188px; background-color: #fbfbfb; border: 1px solid #cfcfcf; position: absolute;
+		left: 40px; top: 26px; z-index: 20;} 
+#city1_list{margin-left: 10px; margin-top: 10px; float: left; font-weight: bolder; height: 12px;}
+#city1>a>img{float: right; margin-right: 10px; margin-top: 10px;}
+#city1_city{width: 436px; height: 141px; border: 1px solid #e8e8e8; background-color: white;margin-top: 5px;
+		margin-left:10px ; float: left;}
+/*热门城市*/
+#city1_dl1{ height: 33px;margin-left: 12px;margin-top: 16px;}
+#city1_dl1>dt{float: left; margin-right: 17px; color: #666666;}
+#city1_dl1>dd{float: left; }
+#city1_dl1>dd>a{display: inline-block; height: 20px; width: 38px; color: #000;}
+#city1_dl1>dd>a:hover{color: red;}
+/*拼音寻找城市*/
+#city1_dl2{margin-left: 12px;}
+#city1_dl2>dt{float: left; margin-right: 17px; color: #666666;}
+#city1_dl2>dd{float: left; }
+/*回到首页*/
+#home{margin-left: 14px;}
+#home:hover{color: #666666;}
+/*顶部右侧导航*/
+#tRight{float: left; margin-left: 495px; height: 30px;}
+.trLi{float: left; padding-left: 10px; padding-right: 10px; height: 18px; border-right: 1px solid #D2D2D2;
+		margin-top: 6px;}
+.trLi>a:hover{color: #666666;}
+.trLi2{background-image: url(../img/jiantou_02.png); background-repeat: no-repeat; background-position-x: 60px; 
+		background-position-y: 5px;}
+.trLi3{border: 0;}
+.trLi3>a{color:red;}
+.trLi3>a:hover{color:red;}
+/*固定二维码*/
+#QRcode{background-image: url(../img/zixun.png); background-repeat: no-repeat; position: fixed;
+		left:1253px ; top:282px; height: 165px; width: 71px; z-index: 10; background-position-x: -78px;}
+#erweima{width: 71px; height: 18px; display: inline-block; margin-top: 56px;}
+#erweima:hover{background-image: url(../img/zixun.png); background-repeat: no-repeat; background-position-y: -56px;}
+/*导航栏*/
+#nav_logo{float: left;}
+#nav{float: left; margin-left: 395px;} 
+.nLi{float: left; width: 100px; margin-top: 23px; height: 36px; line-height: 36px; text-align: center;}
+.nLi>a{font-size: 16px; color: #666666;}
+.nLi:hover{background-color: #f4f4f4;}
+.nLi>a:hover{ text-decoration: none;}
+.nLi2{position: relative;}
+.nLi2>img{position: absolute; top: -10px; left: 75px;}
+/*轮播图部分*/
+#banner{height: 340px;}
+#carousel-512622{position: relative;}
+#count{position: absolute;left: 1150px; top: 320px;}
+/*轮播上的菜单*/
+#hoverlan{height: 340px;background:rgba(0,0,0,0.5);width: 240px;position: absolute;top: 0;left: 0;z-index: 10;}
+#blacklan1{border-bottom: 1px solid gray;height: 85px;background-image: url(../img/icon.png);
+background-repeat: no-repeat;background-position-y: -10px;}
+#blacklan2{border-bottom: 1px solid gray;height: 85px;background-image: url(../img/icon.png);
+background-repeat: no-repeat;background-position-y: -110px;}
+#blacklan3{border-bottom: 1px solid gray;height: 85px;background-image: url(../img/icon.png);
+background-repeat: no-repeat;background-position-y: -210px;}
+#blacklan4{border-bottom: 1px solid gray;height: 85px;background-image: url(../img/icon.png);
+background-repeat: no-repeat;background-position-y: -310px;}
+
+#hoverlan a{color: white;font-size: 16px;line-height: 85px;}
+
+#yincang1{width: 700px;height: 450px;border: 1px solid green;background: white;display: none;
+position:absolute; top: 0;left: 240px;background: ghostwhite;}
+#blacklan1:hover #yincang1{display: block;}
+
+#yincang1 .for1{height: 48px;}
+#yincang1 p{color: #333333;font-size: 12px;display: inline-block;width: 150px;text-align: right;
+line-height: 20px;margin: 0;padding-right: 8px;}
+#yincang1 a{color: #333333;font-size: 12px;display: inline-block;height: 20px;line-height: 20px;
+border-left: 1px solid gainsboro;padding-left: 10px;padding-right: 10px;margin: 20px 0;}
+#yincang1 a:hover{color: green;}
+
+
+#yincang2{width: 700px;height: 340px;border: 1px solid green;background: white;display: none;
+position:absolute;top: 0;left: 240px;background: ghostwhite;}
+#blacklan2:hover #yincang2{display: block;}
+#yincang2 a{color: #333333;line-height: 0;display: inline-block;border: 1px solid gainsboro;
+width: 120px;height: 40px;line-height: 40px;text-align: center;font-size: 12px;
+margin-left: 15px;margin-top: 25px;}
+#yincang2 a:hover{border: 1px solid green;color: green;}
+#yincang2 p{display: inline-block;float: left;margin-top:35px;margin-left: 20px;}
+.yincangr{display: inline-block;width: 600px;}
+
+
+#yincang3{width: 700px;height: 450px;border: 1px solid green;background: white;display: none;
+position:absolute;top: 0;left: 240px;background: ghostwhite;}
+#blacklan3:hover #yincang3{display: block;}
+#yincang3 a{color: #333333;line-height: 0;display: inline-block;border: 1px solid gainsboro;
+width: 120px;height: 40px;line-height: 40px;text-align: center;font-size: 12px;
+margin-left: 15px;margin-top: 25px;}
+#yincang3 a:hover{border: 1px solid green;color: green;}
+
+#yincang4{width: 700px;height: 340px;border: 1px solid green;background: white;display: none;
+position:absolute;top: 0;left: 240px;background: ghostwhite;}
+#blacklan4:hover #yincang4{display: block;}
+#yincang4 a{color: #333333;line-height: 0;display: inline-block;border: 1px solid gainsboro;
+width: 120px;height: 40px;line-height: 40px;text-align: center;font-size: 12px;
+margin-left: 15px;margin-top: 25px;}
+#yincang4 a:hover{border: 1px solid green;color: green;}
+
+
+
+#hoverlan #blacklan1:hover{background:rgb(0,89,53);background-image: url(../img/icon.png);
+background-repeat: no-repeat;background-position-y: -10px;}
+
+#hoverlan #blacklan2:hover{background:rgb(0,89,53);background-image: url(../img/icon.png);
+background-repeat: no-repeat;background-position-y: -110px;}
+#hoverlan #blacklan3:hover{background:rgb(0,89,53);background-image: url(../img/icon.png);
+background-repeat: no-repeat;background-position-y: -210px;}
+#hoverlan #blacklan4:hover{background:rgb(0,89,53);background-image: url(../img/icon.png);
+background-repeat: no-repeat;background-position-y: -310px;}
+
+
+/*免费估价*/
+#evaluate{margin: 0 auto;}
+/*热门手机回收*/
+#tags{font-size: 22px; color: #5a5a5a;}
+#tu{margin-top:52px ;}
+#tu>div>img{margin-left: 64px;}
+#tu>div>p{margin-left: 94px; font-size: 14px; margin-top: 10px;}
+/*二手良品*/
+#used{font-size: 22px; color: #5a5a5a;}
+#good{margin-top:45px ;}
+#good>div>img{margin-left: 64px;}
+#good>div>p{margin-left: 94px; font-size: 14px; margin-top: 10px;}
+#good>div>span{color: #fc6621; margin-left: 94px;}
+/*下方切换地址的 下拉菜单*/
+#btn_p{font-size: 22px; margin-top: 33px; color: #5a5a5a;}
+#btn1{width: 140px; height: 40px; border: 1px solid #118855; display: inline-block; font-size: 14px;
+		line-height: 40px;}
+#btn2{width: 140px; height: 40px; border: 1px solid #118855; margin-left: 6px;display: inline-block;
+		font-size: 14px;line-height: 40px;}
+#btn1_img{margin-left: 10px;}
+#btn2_img{margin-left: 10px;}
+#btn1>a:hover{color: #5a5a5a; text-decoration: none;}
+#btn2>a:hover{color: #5a5a5a; text-decoration: none;}
+#txt{width: 468px; height: 40px; border: 1px solid #118855; margin-left: 6px;}
+#seek{display: inline-block; height: 40px; width: 121px;background-color: #118855; color: white;
+		font-size: 18px; line-height: 40px; text-align: center; text-decoration: none; position: absolute;
+		left:766px; top: 2px;}
+/*下拉菜单的城市切换*/
+#city2{display: none; }
+#city2{width: 458px; height: 188px; background-color: #fbfbfb; border: 1px solid #cfcfcf; position: absolute;
+		left:10px; top: 40px; z-index: 20;} 
+#city2_list{margin-left: 10px; margin-top: 10px; float: left; font-weight: bolder; height: 12px;}
+#city2>#city2_a>img{float: right; margin-right: 10px; margin-top: 10px;}
+#city2_city{width: 436px; height: 141px; border: 1px solid #e8e8e8; background-color: white;margin-top: 5px;
+		margin-left:10px ; float: left;}
+/*热门城市*/
+#city2_dl1{ height: 33px;margin-left: 12px;margin-top: 16px;}
+#city2_dl1>dt{float: left; margin-right: 17px; color: #666666;}
+#city2_dl1>dd{float: left; }
+#city2_dl1>dd>a{display: inline-block; height: 20px; width: 38px; color: #000;}
+#city2_dl1>dd>a:hover{color: red;}
+/*拼音寻找城市*/
+#city2_dl2{margin-left: 12px;}
+#city2_dl2>dt{float: left; margin-right: 17px; color: #666666;}
+#city2_dl2>dd{float: left; }
+/*切换地区后的tab*/
+#tab{width: 888px; background-color: #f7f7f7; border: 1px solid #d6d6d6; height: 42px; margin-top: 20px; margin-left: 0px;}
+.tab_li{float: left; line-height: 42px; text-align: center; font-size: 14px; width: 120px; height: 42px; }
+.tab_li>a{display: inline-block; width: 120px; height: 40px; font-size: 14px; text-decoration: none;}
+.tab_li2>a{background-color: white; border-right: 1px solid #D6D6D6;}
+.tab_li3{width: 101px; height: 28px; float: right; border: 1px solid #dbdbdb; background-color: white; 
+		margin-top: 6px; margin-right: 10px; text-align: center; line-height: 28px; font-size: 14px; 
+		background-image: url(../img/zuobiao.png);background-repeat: no-repeat; background-position-x: 5px;}
+.tab_li3>a{text-decoration: none; color: #000;}
+/*main*/
+.main_dl{margin-top: 10px; height: 111px; width:888px; border-bottom: 1px solid #e6e6e6;margin-left: 0px;}
+.main_dt{float: left;}
+.main_dd{float: left;}
+.main_ul{margin-left: 10px; float: left;}
+.main_ul>li{margin-top: 10px;}
+.main_ul2{margin-left: 30px; float: left;}
+.main_ul2>li{margin-top: 10px;}
+.main_ul_sp{color: #118855;}
+/*进入店铺*/
+.main_dd_a{display: inline-block; width: 140px; height: 40px; color: #118855; border: 1px solid #118855;
+		font-size: 18px; line-height: 40px; text-align: center; margin-left: 70px; margin-top: 25px; display: none;}
+.main_dd_a:hover{color: #118855; text-decoration: none;}
+.main_dl:hover{background-color: #fafafa;}
+.main_dl:hover .main_dd_a{display:inline-block}
+/*main右侧商家好评榜*/
+#main_right{height: 100%; width: 268px; border: 1px solid #D6D6D6; margin-left: 70px; margin-top: 62px;}
+#main_right_p{height: 42px; background-color: #f7f7f7; border-bottom: 1px solid #D6D6D6;
+		font-size: 20px; text-align: center; line-height: 42px;}
+.main_right_dl{height: 92px; border-bottom: 1px solid #D6D6D6;}
+.main_right_dl_p{font-size: 26px; float: left; color: red; margin-left: 16px; margin-top: 20px;}
+.main_right_dl_p2{font-size: 26px; float: left; margin-left: 16px;margin-top: 20px;}
+.main_right_dt{float: left; margin-left: 15px;margin-top: 20px;}
+.main_right_dd{float: left; margin-left: 15px;margin-top: 20px;}
+.main_dd_p1{color: #118855;}
+
+/*ffooter*/
+#footlan{border-top: 1px solid gainsboro;height: 300px;background: ghostwhite; margin-top: 146px;}
+#footup{border-bottom: 1px solid gainsboro;height: 150px;width: 1000px;padding-top: 15px;}
+
+#footup .footupul p{width: 44px;height: 44px;float: left;}
+#ptu1{background-image: url(../img/backX.gif);background-repeat: no-repeat;}
+#ptu2{background-image: url(../img/backX.gif);background-repeat: no-repeat;background-position-y:-44px;}
+#ptu3{background-image: url(../img/backX.gif);background-repeat: no-repeat;background-position-y:-88px;}
+#ptu4{background-image: url(../img/backX.gif);background-repeat: no-repeat;background-position-y:-132px;}
+#ptu5{background-image: url(../img/backX.gif);background-repeat: no-repeat;background-position-y:-176px;}
+#footup .footupul ul{float: left;margin-left: 5px;margin-right: 80px;}
+#footup .footupul b{font-size: 20px;height: 35px;line-height: 35px;}
+#footup .footupul li{margin:10px 0;}
+#footup .footupul a{font-size: 12px;}
+#footup .footupul a:hover{text-decoration: underline;}
+#footdown{height: 150px;width: 1000px;}
+
+#footdown p{font-size: 12px;text-align: center;margin: 0;height: 20px;line-height: 20px;}

@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<script src="js/jquery-1.11.0.js" type="text/javascript" charset="utf-8"></script>
+		<script type="text/javascript">
+			$(function(){
+				$("#login").click(function(){
+				    var username=$('#username').val();
+				    var password=$('#password').val();
+				    //这里实现对 username和password的获取
+				    //发送ajax请求 使用post方式发送json字符串给后台login
+				   
+				    $.ajax({
+				        type: "post",
+				        url: "http://10.2.153.121:8888/login",
+				        data:{"username":username,"password":password},
+				        
+				        success: function(data){
+				        //接受返回的数据，前端判断采取的动作 
+			               if(data == false){
+			                   alert('密码错误，请重新输入');           
+			               }else{
+			                   alert('登陆成功');
+			                  window.location.href="index.html";
+			               }
+				        },
+				        error:function(){
+				        	console.log('err');
+				        }
+				    });
+				});
+				$("#register").click(function(){
+					var username=$('#username').val();
+				    var password=$('#password').val();
+				    $.ajax({
+				        type: "post",
+				        url: "http://10.2.153.121:8888/register",
+				        data:{"username":username,"password":password},
+				        success: function(data){
+				        //接受返回的数据，前端判断采取的动作 
+			               if(data == false){
+			                   alert('注册失败');
+			                 
+			               }else{
+			                   alert('注册成功');
+			                  
+			               }
+				        },
+				        error:function(){
+				        	console.log('err');
+				        }
+				    });
+				})
+				$('#show').click(function(){
+					$("#myul").empty();
+					$.ajax({
+						type:"get",
+						url:"http://10.2.153.121:8888/show",
+						
+//						dataType:"json",
+						success:function(data){
+							for(i in data){
+								$("#myul").append(
+									$("<li>"+data[i].id+"</li>")
+								);
+								$("#myul").append(
+									$("<li>"+data[i].username+"</li>")
+								);                                                                                   
+								
+								$("#myul").append(
+									$("<li>"+data[i].password+"</li>")
+								);
+							}
+						},
+						error:function(){
+				        	console.log('err');
+				        }
+					})
+				})
+			});
+		</script>
+	</head>
+
+	<body>
+		账号：<input type="text" name="username" id="username" value="" />
+		<br /> 
+		密码：<input type="password" name="password" id="password" value="" />
+		<br />
+		<button id = "login">登陆</button>
+		<button id = "register">注册</button>
+		<button id = "show">显示</button>
+		<ul id = "myul"></ul>
+	</body>
+
+</html>
